@@ -7,10 +7,11 @@
 \usepackage{sidecap}
 \usepackage{float}
 \usepackage{hyperref}
-
+\usepackage{makeidx}
 
 \setlength{\parskip}{\baselineskip}
 \setlength{\parindent}{0pt}
+\makeindex
 
 \title{The Rugged Frog \\Designing \& Making Backpacks}
 \author{Arthur Van de Wiele}
@@ -30,5 +31,10 @@
   \phantomsection
   \addcontentsline{toc}{chapter}{\listtablename}
   \listoftables
+
+  \cleardoublepage
+  \phantomsection
+  \addcontentsline{toc}{chapter}{\indexname}
+  \printindex
 
 \end{document}
