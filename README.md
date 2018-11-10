@@ -8,6 +8,8 @@ the essentials than 'hoarding' half of your home on the trail.
 This document here presented is a personal take on how I build my lightweight
 backpacks.
 
+![Example of custom back pack](media/images/pack-front-full.jpg)
+
 I highlight how I am using lighter fabrics, and go on to document different
 building methods and different designs to achieve a consequent weight loss of
 my base weight. If you are not familiar with any of this, then have a look
