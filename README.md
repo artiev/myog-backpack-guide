@@ -16,13 +16,14 @@ and include a number of chapters covering (but not limited to):
 - What features I consider when designing a pack.
 - Choice of lighter fabrics and which materials I prefer.
 - Different building methods and different designs I came up with.
-- Complete documentation of a finished packs from design to execution.
+- Complete documentation of a finished pack from design to execution.
 - Where I find inspiration.
 - How I work on these packs (workspace, tools, etc...)
 
 If you are not familiar with any of this, then have a look
-inside. If you are, and you are interested in looking at how I make my backpacks
-from the sketches and designs to execution and example photos, read on!
+inside. If you are, and you are interested in looking at how I make my
+backpacks from the research, sketches and designs to execution and example
+photos, then read on!
 
 Feel free to read, share, love, hate, but most of all, comment, review, raise
 questions and concerns so I can make it better.
