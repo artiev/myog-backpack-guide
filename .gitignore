@@ -1,2 +1,4 @@
 build/
 media/images/highres/temp/
+media/sketches/raw/AutoSave_*
+media/sketches/raw/*~.skp
