@@ -1,130 +1,17 @@
-In most cases, the coarse design of my backpacks is a basic rectangular prism. The dimensions however, are not that easy to figure out, and depend on the target volume as well as how I wear a pack, my torso length and my shoulder width. I also consider aesthetics as a factor, and try wherever possible to stick to pleasing forms and harmonious dimensions. For the latter, I often refer to the \textit{golden ratio} which has been used across the ages for bringing mathematical harmony to art, architecture, and many other applications.
-
-\begin{note}
-  \index{divine proportion}
-  The golden ratio (also known as the divine proportion) is an irrational number with deep mathematical roots (see Fibonacci sequence for more). In its most simple use, it can offer a eye-pleasing ratio between the length $a$ and the width $b$ of a rectangle ($a > b > 0$).
-
-  \begin{equation}
-    \centering
-    \frac{a + b}{a} = \frac{a}{b}=\varphi
-  \end{equation}
-
-  And through clever manipulation and substitution, you achieve an exact formulae:
-
-  \begin{equation}
-    \centering
-    \label{eq:golden-ratio}
-    \varphi^2 - \varphi - 1 = 0
-  \end{equation}
-
-  The golden ratio $\varphi$ should solve the equation \ref{eq:golden-ratio}, and its only positive value is as follow:
-
-  \begin{equation}
-    \centering
-    \varphi = \frac{1 + \sqrt{5}}{2} = 1.6180339\dots
-  \end{equation}
-
-\end{note}
-
+\input{chapters/design/dimensions/introduction}
 
 \subsection{The basic shape}
-
-\begin{warning}
-  The different panel's construction seams and extra fabric should be accounted for before cutting the panels. Refer to section \ref{sec:seams-and-cutouts} for more.
-\end{warning}
-
-As I just expressed my interest in balancing the shapes and dimensions of the bag through the golden ratio, I should start by saying this is not an exact science. I mostly use it to draw the basic shapes and arrange the different features together, and then, I often deviate a little. But all in all, it's a guideline.
-
-\illustrate{media/sketches/pack-full-3d.pdf}
-{Crude 3D sketch of backpack shape and size}
-{ske:pack-full-3d}
-
-\illustrate{media/sketches/pack-rough-cut.pdf}
-{Rough backpack dimensions including seam allowance of 10mm}
-{ske:pack-rough-cut}
-
-\index{golden ratio}
-In the illustration \ref{ske:pack-rough-cut}, the golden ratio is not obvious, but it is there. If we look at the front panel, the golden ratio is only supposed to impact the assembled pack, and therefore not visible in the fabric cut-outs ($\frac{750}{300} \gg 1.6$), but if you account for the $20cm$ planned for the roll-top and include some compression, you're getting pretty close ($\frac{550}{300} = 1.8$). I actually do prefer a slimmer backpack, but one could definitely get closer to the $1.6$ in any design.
-
-I have tried many different combinations and ratios, and I find the best looks comes from ratios between $1.65 < \varphi_{front} < 1.85$. These also account to some extent to my torso length (as I am slim and tall).
-
-\begin{note}
-  \index{roll-top}
-  The 20cm reserved to the roll-top is not for waterproofness or aesthetics, but about the extra volume this offers (approx 6 litres) if I need to carry more bulk.
-\end{note}
-
-\index{shoulder width}
-With that in mind, my second constraint is given by the overall pack width I am aiming for, and that depends mostly on my shoulder width. There is a very simple reason for that: it's not actually about the shoulder width itself (that impacts more the straps design) but it is more about the freedom of movement of my arms. I do not want my backpack to to be wider than my rib cage, and for my arms and elbows to constantly hit and rub on the pack and create discomfort.
+\input{chapters/design/dimensions/pack}
 
 \subsection{The front panel: aesthetics \& usability}
-
-\illustrate[.75]{media/sketches/panel-front-design.pdf}
-{Concept of the front panel designed for usability}
-{ske:panel-front-design}
+\input{chapters/design/dimensions/panel-front}
 
 \subsection{The side panels: compression}
+\input{chapters/design/dimensions/panel-side}
 
-When designing the side panels (both sides are using the same design), my main focus is to provide proper compression straps to help bring the load of the pack - especially its centre of gravity - as close to my back as possible. On top of that, I want to make sure the bulk of the pack and the heavy items can be placed and compressed at the bottom of the pack in order to carry most of the weight on my hips.
-
-To solve this, I always design a side panel with 3 lines of compression, equally spaced out, and overall offset to the upper part of the backpack's main body. In this specific instance, I use 3 separate straps, but for ultralight purposes, you could use a single - static or shock - cord zigzagging through 6 tie-in points (including one adjustable anchor).
-
-Once again, the golden ratio can help you out. If you take the middle strap as the reference, you can place it at $H / \varphi$ where $H$ is the closed pack height. Here, the pack should be roughly 550mm high when closed up, meaning the middle strap can be placed around $550 / 1.62 = 339mm$ from the bottom.
-
-To make things simple based on the illustration \ref{ske:panel-side-design}, you can work your dimensions from:
-
-\begin{equation}
-  \left\{
-    \begin{array}{rl}
-     \varphi &\approx \dfrac{A+B}{B+C}\\
-      H &= A+2 \times B+C + 3 \times w_{webbing}\\
-    \end{array}
-  \right.
-\end{equation}
-
-And we already know:
-
-\begin{equation}
-  \left\{
-    \begin{array}{ll}
-     \varphi = 1.62\\
-      H = 550mm\\
-      w_{webbing} = 15mm
-    \end{array}
-  \right.
-\end{equation}
-
-Now, I'll spare you the math, and just get to the point (I made some approximation to have nice round numbers):
-
-\begin{equation}
-  \left\{
-    \begin{array}{rl}
-      A &= 200mm\\
-      B &= 110mm\\
-      C &= 85mm
-    \end{array}
-  \right.
-\end{equation}
-
-\illustrate[.55]{media/sketches/panel-side-design.pdf}
-{Concept of the side panels designed for pack compression}
-{ske:panel-side-design}
-
-Aside from shifting the pack's centre of gravity as low and close to the body as possible, leaving the bottom part of the panel "free" of compression straps also offers the possibility to add side pockets to your pack.
-
-Since I rarely use them on multi-day hikes, I decided against them for this backpack, but for day packs these pockets can come very handy, and I build side pockets in all the time.
-
-\begin{note}
-   With this system, you could have a $170 \times 150mm$ side-pocket on each side and use the lowest compression strap as a tightener for, for example, securing a water bottle.
-\end{note}
-
-One thing to consider is whether you want the straps to have a quick-release mechanism or if you prefer simple constructions like a ladder-lock. This can have an impact on the usefulness of your straps beyond compression. I always design at least one compression strap with a quick-release buckle, or some equivalent system, so I can effortlessly secure anything to the side of the pack, from a tent, to trekking poles, to a rain jacket. More details on construction options and techniques can be found in section \ref{sec:construction-side-pockets}.
+\subsection{The back panel: comfort}
+\input{chapters/design/dimensions/panel-back}
 
 \subsection{The bottom panel: robustness}
-\subsection{The back panel: comfort}
-
-\illustrate[.75]{media/sketches/panel-back-design.pdf}
-{Concept of the back panel designed for comfort}
-{ske:panel-back-design}
-
 \subsection{The shoulder straps: lightweight}
 \subsection{The hip belt: padding}
